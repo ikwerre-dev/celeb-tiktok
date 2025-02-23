@@ -9,6 +9,10 @@ const videoData = [
     { id: 2, src: '/videos/1.mp4', title: 'Bank Tips' },
     { id: 3, src: '/videos/1.mp4', title: 'Side Hustle' },
     { id: 4, src: '/videos/1.mp4', title: 'Easy Money' },
+    { id: 5, src: '/videos/1.mp4', title: 'Money Hack' },
+    { id: 6, src: '/videos/1.mp4', title: 'Bank Tips' },
+    { id: 7, src: '/videos/1.mp4', title: 'Side Hustle' },
+    { id: 8, src: '/videos/1.mp4', title: 'Easy Money' },
 ];
 
 export default function VideoExamples() {
