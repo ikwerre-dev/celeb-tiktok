@@ -25,7 +25,7 @@ export default function Profile() {
         transition={{ delay: 0.2 }}
         className="space-y-4"
       >
-        <h1 className="text-4xl font-bold">Hey, I'm Mia Carter.</h1>
+        <h1 className="text-4xl font-bold">Hey, I&lsquo;m Mia Carter.</h1>
         <h2 className="text-3xl font-bold">Dreamer & Designer</h2>
         <p className="text-gray-600 max-w-2xl mx-auto">
           Crafting seamless experiences and bold visuals. High school student by day, 

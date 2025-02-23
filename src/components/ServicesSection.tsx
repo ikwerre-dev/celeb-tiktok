@@ -1,7 +1,5 @@
 'use client';
-import { motion } from 'framer-motion';
-import { SiTiktok } from "react-icons/si";
-import { Mail } from 'lucide-react';
+import { motion } from 'framer-motion'; 
 
 export default function ServicesSection() {
     const services = [

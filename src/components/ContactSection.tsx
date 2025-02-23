@@ -12,7 +12,7 @@ export default function ContactSection() {
                     whileInView={{ opacity: 1 }}
                     className="text-6xl md:text-8xl font-black mb-8"
                 >
-                    LET'S GET TO WORK!
+                    LET&lsquo;S GET TO WORK!
                 </motion.h2>
 
                 <motion.p
