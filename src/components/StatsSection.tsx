@@ -32,8 +32,7 @@ export default function StatsSection() {
                                      className="w-[50rem] "
                                 />
                             </div>
-                           ‰
-                        </motion.div>
+                         </motion.div>
                     ))}
                 </div>
 
