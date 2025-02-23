@@ -32,7 +32,7 @@ export default function Header() {
         <div className="lg:hidden flex justify-end">
           <button 
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="p-2"
+            className="p-2 text-black"
           >
             {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>

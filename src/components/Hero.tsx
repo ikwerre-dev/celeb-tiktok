@@ -1,7 +1,6 @@
 'use client';
 import { motion } from 'framer-motion';
-import Image from 'next/image';
-
+ 
 export default function Hero() {
     return (
         <section className="text-center pt-[8rem] pb-24">
@@ -10,14 +9,14 @@ export default function Hero() {
                 animate={{ opacity: 1, y: 0 }}
                 className="relative mb-16"
             >
-                <h5 className='text-[#ed0b76] font-bold text-6xl tracking-wider'>GIBRAN</h5>
+                <h5 className='text-[#ed0b76] font-bold text-3xl md:text-6xl tracking-wider'>GIBRAN</h5>
                 <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 w-24 h-1 bg-gradient-to-r from-pink-500 to-purple-600"></div>
             </motion.div>
 
             <motion.h1
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="text-[3.5rem] leading-tight font-black max-w-5xl mx-auto mb-16 text-black 
+                className="text-3xl md:text-[3.5rem] leading-tight font-black max-w-5xl mx-auto mb-16 text-black 
                           [text-shadow:_3px_3px_0_rgb(0_0_0_/_10%)] tracking-tight px-4"
             >
                 The UGC Creator helping brands
