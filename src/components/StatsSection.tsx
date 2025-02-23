@@ -9,9 +9,9 @@ export default function StatsSection() {
                 <motion.h2
                     initial={{ opacity: 0 }}
                     whileInView={{ opacity: 1 }}
-                    className="text-6xl text-black font-black text-center mb-20"
+                    className="text-4xl md:text-8xl text-black font-black uppercase text-center mb-20"
                 >
-                    PROVEN RESULTS
+                   content that converts.
                 </motion.h2>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 ">

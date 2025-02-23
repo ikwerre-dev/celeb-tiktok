@@ -65,7 +65,7 @@ export default function VideoExamples() {
                         whileHover={{ scale: 1.02 }}
                         className="relative aspect-[8/16]"
                     >
-                        <div className="absolute inset-0 rounded-[3rem] border-8 border-black bg-black overflow-hidden">
+                        <div className="absolute inset-0 rounded-[1rem] md:rounded-[2rem] border-8 border-black bg-black overflow-hidden">
 
                             <div className="absolute w-full flex justify-center items-center top-3 z-10 ">
                                 <div className=" w-[6rem] h-[1.5rem] rounded-full  bg-black"></div>
