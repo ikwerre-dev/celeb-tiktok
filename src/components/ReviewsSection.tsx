@@ -36,7 +36,7 @@ export default function ReviewsSection() {
                             initial={{ opacity: 0, y: 20 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{ delay: index * 0.1 }}
-                            className="bg-white p-8   shadow-[9px_9px_10px_0px_rgba(178,190,181,1)]"
+                            className="bg-[#f4f4f4] p-8   shadow-[9px_9px_10px_0px_rgba(178,190,181,1)]"
                         >
                             <p className="text-base md:text-lg font-medium whitespace-pre-line">
                                 {review.text}
