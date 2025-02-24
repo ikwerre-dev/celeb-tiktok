@@ -38,7 +38,7 @@ export default function ReviewsSection() {
                 {/* Social Links */}
                 <div className="flex justify-center gap-6">
                     <motion.a
-                        href="https://tiktok.com/@username"
+                        href="https://www.tiktok.com/@deanbartlett233?_t=ZN-8u9s6rmeHg6&_r=1"
                         target="_blank"
                         rel="noopener noreferrer"
                         whileHover={{ scale: 1.1 }}
@@ -47,7 +47,7 @@ export default function ReviewsSection() {
                         <SiTiktok className="w-6 h-6 text-black" />
                     </motion.a>
                     <motion.a
-                        href="mailto:contact@example.com"
+                        href="mailto:deano@dbinnovations.com"
                         whileHover={{ scale: 1.1 }}
                         className="p-3 bg-gradient-to-r from-pink-500 to-purple-600 rounded-full"
                     >

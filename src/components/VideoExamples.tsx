@@ -5,14 +5,7 @@ import { useState } from 'react';
 import { SiTiktok } from "react-icons/si";
 
 const videoData = [
-    { id: 1, src: '/videos/1.mp4', title: 'Money Hack' },
-    { id: 2, src: '/videos/1.mp4', title: 'Bank Tips' },
-    { id: 3, src: '/videos/1.mp4', title: 'Side Hustle' },
-    { id: 4, src: '/videos/1.mp4', title: 'Easy Money' },
-    { id: 5, src: '/videos/1.mp4', title: 'Money Hack' },
-    { id: 6, src: '/videos/1.mp4', title: 'Bank Tips' },
-    { id: 7, src: '/videos/1.mp4', title: 'Side Hustle' },
-    { id: 8, src: '/videos/1.mp4', title: 'Easy Money' },
+    { id: 1, src: '/videos/1.mp4', title: 'Money Hack' }
 ];
 
 export default function VideoExamples() {
@@ -57,7 +50,7 @@ export default function VideoExamples() {
                 EXAMPLE VIDEOS
             </motion.h2>
 
-            <div className="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8">
+            <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-8">
                 {videoData.map((video) => (
                     <motion.div key={video.id}
                         initial={{ opacity: 0, y: 20 }}
@@ -107,7 +100,7 @@ export default function VideoExamples() {
             {/* Social Links */}
             <div className="flex justify-center gap-6 mt-16">
                 <motion.a
-                    href="https://tiktok.com/@username"
+                    href="https://www.tiktok.com/@deanbartlett233?_t=ZN-8u9s6rmeHg6&_r=1"
                     target="_blank"
                     rel="noopener noreferrer"
                     whileHover={{ scale: 1.1 }}
@@ -116,7 +109,7 @@ export default function VideoExamples() {
                     <SiTiktok className="w-6 h-6 text-white" />
                 </motion.a>
                 <motion.a
-                    href="mailto:contact@example.com"
+                    href="mailto:deano@dbinnovations.com"
                     whileHover={{ scale: 1.1 }}
                     className="p-3 bg-gradient-to-r from-pink-500 to-purple-600 rounded-full"
                 >

@@ -29,7 +29,7 @@ export default function ContactSection() {
                     className="flex justify-center"
                 >
                     <motion.a
-                        href="mailto:contact@example.com"
+                        href="mailto:deano@dbinnovations.com"
                         whileHover={{ scale: 1.05 }}
                         className="px-12 py-4 bg-black text-white rounded-full text-xl font-medium"
                     >
@@ -39,7 +39,7 @@ export default function ContactSection() {
 
                 <div className="flex justify-center gap-6 mt-12">
                     <motion.a
-                        href="https://tiktok.com/@username"
+                        href="https://www.tiktok.com/@deanbartlett233?_t=ZN-8u9s6rmeHg6&_r=1"
                         target="_blank"
                         rel="noopener noreferrer"
                         whileHover={{ scale: 1.1 }}
@@ -48,7 +48,7 @@ export default function ContactSection() {
                         <SiTiktok className="w-6 h-6 text-white" />
                     </motion.a>
                     <motion.a
-                        href="mailto:contact@example.com"
+                        href="mailto:deano@dbinnovations.com"
                         whileHover={{ scale: 1.1 }}
                         className="p-3 bg-gradient-to-r from-pink-500 to-purple-600 rounded-full"
                     >

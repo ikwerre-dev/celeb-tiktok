@@ -9,7 +9,7 @@ export default function Hero() {
                 animate={{ opacity: 1, y: 0 }}
                 className="relative mb-16"
             >
-                <h5 className='text-[#ed0b76] font-bold text-3xl md:text-6xl tracking-wider'>GIBRAN</h5>
+                <h5 className='text-[#ed0b76] font-bold text-3xl md:text-6xl tracking-wider'>DEANO</h5>
                 <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 w-24 h-1 bg-gradient-to-r from-pink-500 to-purple-600"></div>
             </motion.div>
 

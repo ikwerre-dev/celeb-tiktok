@@ -6,7 +6,7 @@ import { SiTiktok } from "react-icons/si";
 
 export default function AboutSection() {
     const facts = [
-        "Based in San Diego, I can create outdoor content all year round",
+        "Based in Washington, I can create outdoor content all year round",
         "I have a baby boy who does great in UGC videos with me",
         "My wife & I specialize in creating `couples` UGC videos",
         "I am always open to work with any brand, regardless of niche",
@@ -72,7 +72,7 @@ export default function AboutSection() {
                         {/* Social Links */}
                         <div className="flex gap-4 mt-8">
                             <motion.a
-                                href="https://tiktok.com/@username"
+                                href="https://www.tiktok.com/@deanbartlett233?_t=ZN-8u9s6rmeHg6&_r=1"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 whileHover={{ scale: 1.1 }}
@@ -81,7 +81,7 @@ export default function AboutSection() {
                                 <SiTiktok className="w-6 h-6 text-white" />
                             </motion.a>
                             <motion.a
-                                href="mailto:contact@example.com"
+                                href="mailto:deano@dbinnovations.com"
                                 whileHover={{ scale: 1.1 }}
                                 className="p-3 bg-gradient-to-r from-pink-500 to-purple-600 rounded-full"
                             >

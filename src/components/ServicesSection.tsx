@@ -5,7 +5,7 @@ export default function ServicesSection() {
     const services = [
         "Organically on your brands social media accounts.",
         "As paid ads that your brand can run campaigns with.",
-        "Whitelisted on my TikTok or Instagram account, @GibrantheCreator."
+        "Whitelisted on my TikTok or Instagram account, @DEANOtheCreator."
     ];
 
     return (

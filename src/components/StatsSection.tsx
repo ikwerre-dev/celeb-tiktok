@@ -11,11 +11,11 @@ export default function StatsSection() {
                     whileInView={{ opacity: 1 }}
                     className="text-4xl md:text-8xl text-black font-black uppercase text-center mb-20"
                 >
-                   content that converts.
+                    content that converts.
                 </motion.h2>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 ">
-                    {[1, 2, 3,4].map((index) => (
+                    {[1, 2, 3, 4].map((index) => (
                         <motion.div
                             key={index}
                             initial={{ opacity: 0, y: 20 }}
@@ -29,10 +29,12 @@ export default function StatsSection() {
                                     alt={`TikTok Statistics ${index}`}
                                     width={800}
                                     height={100}
-                                     className="w-[50rem] "
+                                    className="w-[50rem] "
                                 />
                             </div>
-                         </motion.div>
+                        </motion.div>
+
+                        
                     ))}
                 </div>
 

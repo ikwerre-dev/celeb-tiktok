@@ -24,7 +24,7 @@ export default function BrandsSection() {
                             className="relative aspect-[3/2] flex items-center justify-center"
                         >
                             <Image
-                                src={`/brands/1.png`}
+                                src={`/brands/${index}.png`}
                                 alt={`Brand Partner ${index}`}
                                 width={200}
                                 height={100}
