@@ -2,8 +2,21 @@
 import { motion } from 'framer-motion';
 import { SiTiktok } from "react-icons/si";
 import { Mail } from 'lucide-react';
-import Image from 'next/image';
-
+ 
+const reviews = [
+    {
+        text: "Hey Deano!\n\nThe video is perfect! Thank you so much for your hard work on the video. The team loved it, and I have already approved payment. Would you be interested in creating a few more videos for us at the same rate? We're looking for similar-style"
+    },
+    {
+        text: "Hi Deano,\n\nI'm also reaching out to let you know that your videos look like they're doing really well and based on this we would love for you to create some more videos for them this month if you are interested?"
+    },
+    {
+        text: "Hi Deano,\n\nYour videos are so good! Thank you for sending these options, the team is very happy with all the content you have been producing! I will get your payment moved forward"
+    },
+    {
+        text: "Hi Deano,\n\nWOW! We absolutely loved your video, amazing job!! This is the exact content we were looking forward to receiving and we really enjoyed the voiceover!"
+    }
+];
 export default function ReviewsSection() {
     return (
         <section className="py-24 px-4  ">
@@ -16,21 +29,18 @@ export default function ReviewsSection() {
                     CLIENT REVIEWS
                 </motion.h2>
 
-                <div className="grid grid-cols-1 md:grid-cols-2   mb-16">
-                    {Array.from({ length: 4 }, (_, i) => i + 1).map((index) => (
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-16 max-w-7xl mx-auto">
+                    {reviews.map((review, index) => (
                         <motion.div
                             key={index}
                             initial={{ opacity: 0, y: 20 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{ delay: index * 0.1 }}
-                         >
-                            <Image
-                                src={`/reviews/1.png`}
-                                alt={`Client Review ${index}`}
-                                width={700}
-                                height={100}
-                                className="object-contain rounded-3xl"
-                            />
+                            className="bg-white p-8   shadow-[9px_9px_10px_0px_rgba(178,190,181,1)]"
+                        >
+                            <p className="text-base md:text-lg font-medium whitespace-pre-line">
+                                {review.text}
+                            </p>
                         </motion.div>
                     ))}
                 </div>
