@@ -13,7 +13,7 @@ export default function CreatorImages() {
                 className="absolute left-0 bottom-0 w-[15rem] md:w-[400px]"
             >
                 <Image
-                    src="/creator-1.png"
+                    src="/creator-2.png"
                     alt="Creator Image"
                     width={400}
                     height={500}
@@ -29,7 +29,7 @@ export default function CreatorImages() {
 
             >
                 <Image
-                    src="/creator-2.png"
+                    src="/creator-1.png"
                     alt="Creator Image"
                     width={400}
                     height={500}
